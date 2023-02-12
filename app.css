@@ -10,10 +10,10 @@ h1 {
 }
 /*  */
 h2 {
-  background-color: rgb(130, 10, 20);
-  color: rgb(255, 255, 255);
+  color: rgb(130, 10, 20);
   font-size: 2em;
   text-align: center;
+  padding-top: 0px;
 }
 
 h3 {
@@ -26,4 +26,10 @@ p {
 
 li {
   color: rgb(130, 10, 20);
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-auto-rows: 50vh;
 }
